@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon Link -->
+        <link rel="shortcut icon" href="creative-cloud.png" type="image/x-icon">
+        <!-- Google Fonts Link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Inter:wght@200&family=Josefin+Sans:wght@300&family=Libre+Baskerville&family=Nanum+Myeongjo:wght@700&family=Noto+Serif+Display:wght@600&family=Noto+Serif:ital,wght@0,100;0,300;0,400;1,300&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+            <!-- Google Fonts Icons Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>UrbanCraftsHub Furniture</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <!-- Container Start-->
+    <div class="container">
+
+             <!-- Navbar Start -->
+             <nav class="navbar">
+                <div class="navbarinnerdiv">
+                    <img src="creative-cloud.png" alt=""><strong>UrbanCraftsHub Furniture</strong>
+                </div>
+                <div class="navbarinnerdiv">
+                    <input type="text" placeholder="Search Something">
+                    <span class="material-symbols-outlined">
+                        search
+                        </span>
+                </div>
+                <div class="navbarinnerdiv">
+                    <a href="#">HOME</a>
+                </div>
+                <div class="navbarinnerdiv">
+                    <a href="#">ABOUT US</a>
+                </div>
+                <div class="navbarinnerdiv">
+                    <a href="#">CONTACT</a>
+                </div>
+            </nav>
+            <!-- Navbar End -->
+
+        <!-- One Div Start -->
+        <div class="onediv">
+
+            <!-- One Left Div Start -->
+            <div class="oneleftdiv">
+                <!-- One Inner Left Div Start -->
+               <div class="oneleftinnerleftdiv">
+                <img src="pagesofa1.png" alt="pagesofa1">
+                <img src="pagesofa1.1.png" alt="pagesofa1.1">
+                <img src="pagesofa1.2.png" alt="pagesofa1.2">
+                <img src="pagesofa1.3.png" alt="pagesofa1.3">
+               </div>
+               <!-- One Inner Left Div End -->
+               <div class="oneleftinnerrightdiv">
+                <img src="pagesofa1.4.png" alt="pagesofa1.4">
+               </div>
+            </div>
+            <!-- One Left Div End -->
+        </div>
+        <!-- One Div End -->
+
+        <!-- Div Second Start -->
+            <div class="seconddiv">
+                <div class="secondinnertopdiv">
+                    <h2>Premimum leather High Quality Cushion Sofa</h2>
+                <p>Investing in a piece of luxury leather UrbanCraftsHub Furniture is one of the most rewarding purchases any homeowner could make. UrbanCraftsHub is hands down the best brand for leather UrbanCraftsHub, regardless of the item you choose, you’re guaranteed to receive UrbanCraftsHub that carries the utmost comfort and satisfaction. We craft our UrbanCraftsHub using the highest-quality leathers from around the world, making them extremely long-lasting, stylish, and remarkably easy-to-maintain. Each leather piece comes with high-end UrbanCraftsHub frames that are made from engineered laminated hardwoods, and they typically come in a variety of colour combinations with over 250 leather selections available. Not only that, but we have a ridiculous number of leather recliners, and recliner chairs compared to other manufacturers. So, you should never run out of options.</p>
+                </div>
+
+                <div class="secondinnermiddlediv">
+                    <s>&#8377; 29,999 /</s> <span>&#8377; 19,999 /-</span>
+                </div>
+                
+                <div class="secondinnerbottomdiv">
+                    
+                        <span class="material-symbols-outlined">
+                            assignment_returned
+                            </span> <span>7 Days Return</span>
+                            
+                            <img src="icons8-verified-32.png" alt="Varified">
+                            <span> Safty Check</span>
+                        
+                        <span class="material-symbols-outlined">
+                            contract_edit
+                        </span>
+                        <span>No document Delivery</span>
+                        
+                    </div>
+                                        
+                <h2 class="color">Colors</h2> 
+                <div class="secondinnerenddiv">
+                    
+                    <div class="div1 all"></div>
+                    <div class="div2 all"></div>
+                    <div class="div3 all"></div>
+                    <div class="div4 all"></div>
+                    <div class="div5 all"></div>
+                    <div class="div6 all"></div>
+                    <div class="div7 all"></div>
+                    <div class="div8 all"></div>
+                    <div class="div9 all"></div>
+                    <div class="div10 all"></div>
+                    
+                </div>
+
+            </div>
+        <!-- Div Second End -->
+
+        <!-- Third Div Start -->
+        <div class="thirddiv">
+                <img src="sofabed.png" alt="Sofa Chair">
+            </div>
+        <!-- Third Div End -->
+
+        <!-- Fourth Div Start -->
+        <div class="fourthdiv">
+            <div class="fourthupperdiv">
+                <span><strong>Model Name :  </strong>Sofa Bed</span>
+                <span><strong>Item dimentions L×W×H :</strong>181×90×19 centimeters</span>
+                <span><strong>Item Wight :</strong>8kg</span>
+                <span><strong>Type :</strong>Sofa Bed</span>
+                <span><strong>Seating Capacity :</strong>5</span>
+                <span><strong>Included Components :</strong>Others</span>
+                <span><strong>Assembel Required :</strong>No</span>
+            </div>
+            <div class="fourthmiddlediv">
+                <h1>Colors</h1>
+            </div>
+            <div class="fourthbottomdiv">
+                <div class="div1 all"></div>
+                <div class="div2 all"></div>
+                <div class="div3 all"></div>
+                <div class="div4 all"></div>
+                <div class="div5 all"></div>
+                <div class="div6 all"></div>
+                <div class="div7 all"></div>
+                <div class="div8 all"></div>
+                <div class="div9 all"></div>
+                <div class="div10 all"></div>
+            </div>
+        </div>
+        <!-- Fourth Div End -->
+
+        <!-- Fifth Div Start -->
+        <div class="fifthdiv">
+            <img src="2chair.png" alt="Two Chairs">
+        </div>
+        <!-- Fifth Div End -->
+
+        <!-- Sixth Div Start -->
+        <div class="sixdiv">
+            <h1>About This Item</h1>
+            <p>package Contacts : 1 sofa cum bed with cusion cover
+                Weightless : With good floor clearence for easy shifting and tiding up it is very easy to use
+                Washable Fabric : Sofa covers are washable and easy to maintain like new
+                Inflexibility level : Medium-soft on sitting and duel comfort on sleeping
+                The sofa delivered to your door steps direct from our factory,at our factory price ( free delivery )</p>
+        </div>
+        <!-- Sixth Div End -->
+
+
+        <!-- Seven Div Start -->
+        <div class="sevendiv">
+            <div class="sevenupperdiv">
+                <h1>Product Information</h1>
+            </div>
+            <div class="sevenbottomdiv">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Information</th>
+                        </tr>
+                    </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Color</td>
+                        <td>Gray</td>
+                    </tr>
+                    <tr>
+                        <td>Brand</td>
+                        <td>New Wave</td>
+                    </tr>
+                    <tr>
+                        <td>Material</td>
+                        <td>Wood</td>
+                    </tr>
+                    <tr>
+                        <td>Weight</td>
+                        <td>20kgs</td>
+                    </tr>
+                    <tr>
+                        <td>Frame Material</td>
+                        <td>Novergin Wood</td>
+                    </tr>
+                    <tr>
+                        <td>Country of Manufacture</td>
+                        <td>India</td>
+                    </tr>
+                </tbody>
+
+                </table>
+            </div>
+        </div>
+        <!-- Seven Div End -->
+
+
+        <!-- Eight Div Start -->
+        <div class="eightdiv">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Information</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Item Weight</td>
+                        <td>60kgs</td>
+                    </tr>
+                    <tr>
+                        <td>Item dimentions L×W×H</td>
+                        <td>92×81×104 centimeters</td>
+                    </tr>
+                    <tr>
+                        <td>Included Components</td>
+                        <td>Only Chairs</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- Eight Div End -->
+
+        <!-- Nine Div Start -->
+        <div class="ninediv">
+            <div class="nineupperdiv">
+                <h2>More Products Similar To This:</h2>
+            </div>
+            <div class="ninebottomdiv">
+                <div class="cards">
+                    <img src="swing-chair.png" alt="Swing Chair">
+                    <small>Designer Chair Cushioned</small>
+                    <button>Add To Cart <span class="material-symbols-outlined">
+                        arrow_right_alt
+                        </span></button>
+                </div>
+
+                <div class="cards">
+                    <img src="pinkchair.png" alt="Pink Chair">
+                    <small>Great Sofa to Rest</small>
+                    <button>Add To Cart <span class="material-symbols-outlined">
+                        arrow_right_alt
+                        </span></button>
+                </div>
+
+                <div class="cards">
+                    <img src="sofachair4.png" alt="Sofa Chair 4">
+                    <small>Rustick Chair With Wooden Heals</small>
+                    <button>Add To Cart <span class="material-symbols-outlined">
+                        arrow_right_alt
+                        </span></button>
+                </div>
+
+                <div class="cards">
+                    <img src="pagesofa1.3.png" alt="Swing Chair">
+                    <small>Designer Chair Cushioned</small>
+                    <button>Add To Cart <span class="material-symbols-outlined">
+                        arrow_right_alt
+                        </span></button>
+                </div>
+            </div>
+        </div>
+        <!-- Nine Div End -->
+
+        <!-- Ten Div Start -->
+        <div class="tendiv">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Customers Rating</td>
+                        <th><img src="five-stars.png" alt="Five Star"></th>
+                        <th><img src="five-stars.png" alt="Five Star"></th>
+                        <th><img src="five-stars.png" alt="Five Star"></th>
+                        <th><img src="five-stars.png" alt="Five Star"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Price</td>
+                        <td>₹19,129/-</td>
+                        <td>₹29,139/-</td>
+                        <td>₹9,149/-</td>
+                        <td>₹17,159/-</td>
+                    </tr>
+                    <tr>
+                        <td>Sold By</td>
+                        <td>Feature Wave</td>
+                        <td>Furnieisy</td>
+                        <td>Self Assembly</td>
+                        <td>keika</td>
+                    </tr>
+                     <tr>
+                        <td>Product dimension</td>
+                        <td>92.00 cm ×81.00 cm ×1.04 meters</td>
+                        <td>88.26 cm ×86.36 cm× 1.04 meters</td>
+                        <td>86.00 cm× 84.00cm ×1.06 meter</td>
+                        <td>79.00 cm× 80.00 cm ×1.09 meters</td>
+                    </tr>
+                     <tr>
+                        <td>Material</td>
+                        <td>Wood</td>
+                        <td>Fabric</td>
+                        <td>Neem wood</td>
+                        <td>Sheesham Wood legs,32 density foam and mix wood structure</td>
+                    </tr>
+                     <tr>
+                        <td>Includes items</td>
+                        <td>Only chair</td>
+                        <td>Chairs+ legs+ screws</td>
+                        <td>1 wing chair</td>
+                        <td>1 chair</td>
+                    </tr>
+
+                     <tr>
+                        <td>Model number</td>
+                        <td>Scand01</td>
+                        <td>8820 wales_Azure blue hawalian_1</td>
+                        <td>WWCHR NICFRGNr</td>
+                        <td>Ac-WING CHAIR FOOT REST</td>
+                    </tr>
+
+                     <tr>
+                        <td>Style</td>
+                        <td>Modem</td>
+                        <td>Nonwegian</td>
+                        <td>Victorian</td>
+                        <td>Greek</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        <!-- Ten Div End -->
+
+        <!-- Eleven Div Start -->
+        <div class="elevendiv">
+            <div class="elevenupperdiv">
+                <h2>Customers Reviews</h2>
+            <img src="five-stars.png" alt="Five Star">
+            <h3>3,44,547 Global Ratings</h3>
+            </div>
+
+           <div class="elevenbottomdiv">
+                <span>70% Above</span><img src="five-stars.png" alt="Five Star">
+           </div>
+
+           <div class="elevenbottomdiv">
+            <span>90% Above</span><img src="five-stars.png" alt="Five Star">
+         </div>
+
+         <div class="elevenbottomdiv">
+        <span>70% Above</span><img src="five-stars.png" alt="Five Star">
+        </div>
+
+        <div class="elevenbottomdiv">
+                <span>70% Above</span><img src="five-stars.png" alt="Five Star">
+        </div>
+
+        </div>
+        <!-- Eleven Div End -->
+
+
+    </div>
+    <!-- Container End -->
+
+</body>
+</html>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon Link -->
+        <link rel="shortcut icon" href="creative-cloud.png" type="image/x-icon">
+        <!-- Google Fonts Link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Inter:wght@200&family=Josefin+Sans:wght@300&family=Libre+Baskerville&family=Nanum+Myeongjo:wght@700&family=Noto+Serif+Display:wght@600&family=Noto+Serif:ital,wght@0,100;0,300;0,400;1,300&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+            <!-- Google Fonts Icons Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>UrbanCraftsHub Furniture</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <!-- Container Start-->
+    <div class="container">
+
+             <!-- Navbar Start -->
+             <nav class="navbar">
+                <div class="navbarinnerdiv">
+                    <img src="creative-cloud.png" alt=""><strong>UrbanCraftsHub Furniture</strong>
+                </div>
+                <div class="navbarinnerdiv">
+                    <input type="text" placeholder="Search Something">
+                    <span class="material-symbols-outlined">
+                        search
+                        </span>
+                </div>
+                <div class="navbarinnerdiv">
+                    <a href="#">HOME</a>
+                </div>
+                <div class="navbarinnerdiv">
+                    <a href="#">ABOUT US</a>
+                </div>
+                <div class="navbarinnerdiv">
+                    <a href="#">CONTACT</a>
+                </div>
+            </nav>
+            <!-- Navbar End -->
+
+        <!-- One Div Start -->
+        <div class="onediv">
+
+            <!-- One Left Div Start -->
+            <div class="oneleftdiv">
+                <!-- One Inner Left Div Start -->
+               <div class="oneleftinnerleftdiv">
+                <img src="pagesofa1.png" alt="pagesofa1">
+                <img src="pagesofa1.1.png" alt="pagesofa1.1">
+                <img src="pagesofa1.2.png" alt="pagesofa1.2">
+                <img src="pagesofa1.3.png" alt="pagesofa1.3">
+               </div>
+               <!-- One Inner Left Div End -->
+               <div class="oneleftinnerrightdiv">
+                <img src="pagesofa1.4.png" alt="pagesofa1.4">
+               </div>
+            </div>
+            <!-- One Left Div End -->
+        </div>
+        <!-- One Div End -->
+
+        <!-- Div Second Start -->
+            <div class="seconddiv">
+                <div class="secondinnertopdiv">
+                    <h2>Premimum leather High Quality Cushion Sofa</h2>
+                <p>Investing in a piece of luxury leather UrbanCraftsHub Furniture is one of the most rewarding purchases any homeowner could make. UrbanCraftsHub is hands down the best brand for leather UrbanCraftsHub, regardless of the item you choose, you’re guaranteed to receive UrbanCraftsHub that carries the utmost comfort and satisfaction. We craft our UrbanCraftsHub using the highest-quality leathers from around the world, making them extremely long-lasting, stylish, and remarkably easy-to-maintain. Each leather piece comes with high-end UrbanCraftsHub frames that are made from engineered laminated hardwoods, and they typically come in a variety of colour combinations with over 250 leather selections available. Not only that, but we have a ridiculous number of leather recliners, and recliner chairs compared to other manufacturers. So, you should never run out of options.</p>
+                </div>
+
+                <div class="secondinnermiddlediv">
+                    <s>&#8377; 29,999 /</s> <span>&#8377; 19,999 /-</span>
+                </div>
+                
+                <div class="secondinnerbottomdiv">
+                    
+                        <span class="material-symbols-outlined">
+                            assignment_returned
+                            </span> <span>7 Days Return</span>
+                            
+                            <img src="icons8-verified-32.png" alt="Varified">
+                            <span> Safty Check</span>
+                        
+                        <span class="material-symbols-outlined">
+                            contract_edit
+                        </span>
+                        <span>No document Delivery</span>
+                        
+                    </div>
+                                        
+                <h2 class="color">Colors</h2> 
+                <div class="secondinnerenddiv">
+                    
+                    <div class="div1 all"></div>
+                    <div class="div2 all"></div>
+                    <div class="div3 all"></div>
+                    <div class="div4 all"></div>
+                    <div class="div5 all"></div>
+                    <div class="div6 all"></div>
+                    <div class="div7 all"></div>
+                    <div class="div8 all"></div>
+                    <div class="div9 all"></div>
+                    <div class="div10 all"></div>
+                    
+                </div>
+
+            </div>
+        <!-- Div Second End -->
+
+        <!-- Third Div Start -->
+        <div class="thirddiv">
+                <img src="sofabed.png" alt="Sofa Chair">
+            </div>
+        <!-- Third Div End -->
+
+        <!-- Fourth Div Start -->
+        <div class="fourthdiv">
+            <div class="fourthupperdiv">
+                <span><strong>Model Name :  </strong>Sofa Bed</span>
+                <span><strong>Item dimentions L×W×H :</strong>181×90×19 centimeters</span>
+                <span><strong>Item Wight :</strong>8kg</span>
+                <span><strong>Type :</strong>Sofa Bed</span>
+                <span><strong>Seating Capacity :</strong>5</span>
+                <span><strong>Included Components :</strong>Others</span>
+                <span><strong>Assembel Required :</strong>No</span>
+            </div>
+            <div class="fourthmiddlediv">
+                <h1>Colors</h1>
+            </div>
+            <div class="fourthbottomdiv">
+                <div class="div1 all"></div>
+                <div class="div2 all"></div>
+                <div class="div3 all"></div>
+                <div class="div4 all"></div>
+                <div class="div5 all"></div>
+                <div class="div6 all"></div>
+                <div class="div7 all"></div>
+                <div class="div8 all"></div>
+                <div class="div9 all"></div>
+                <div class="div10 all"></div>
+            </div>
+        </div>
+        <!-- Fourth Div End -->
+
+        <!-- Fifth Div Start -->
+        <div class="fifthdiv">
+            <img src="2chair.png" alt="Two Chairs">
+        </div>
+        <!-- Fifth Div End -->
+
+        <!-- Sixth Div Start -->
+        <div class="sixdiv">
+            <h1>About This Item</h1>
+            <p>package Contacts : 1 sofa cum bed with cusion cover
+                Weightless : With good floor clearence for easy shifting and tiding up it is very easy to use
+                Washable Fabric : Sofa covers are washable and easy to maintain like new
+                Inflexibility level : Medium-soft on sitting and duel comfort on sleeping
+                The sofa delivered to your door steps direct from our factory,at our factory price ( free delivery )</p>
+        </div>
+        <!-- Sixth Div End -->
+
+
+        <!-- Seven Div Start -->
+        <div class="sevendiv">
+            <div class="sevenupperdiv">
+                <h1>Product Information</h1>
+            </div>
+            <div class="sevenbottomdiv">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Information</th>
+                        </tr>
+                    </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Color</td>
+                        <td>Gray</td>
+                    </tr>
+                    <tr>
+                        <td>Brand</td>
+                        <td>New Wave</td>
+                    </tr>
+                    <tr>
+                        <td>Material</td>
+                        <td>Wood</td>
+                    </tr>
+                    <tr>
+                        <td>Weight</td>
+                        <td>20kgs</td>
+                    </tr>
+                    <tr>
+                        <td>Frame Material</td>
+                        <td>Novergin Wood</td>
+                    </tr>
+                    <tr>
+                        <td>Country of Manufacture</td>
+                        <td>India</td>
+                    </tr>
+                </tbody>
+
+                </table>
+            </div>
+        </div>
+        <!-- Seven Div End -->
+
+
+        <!-- Eight Div Start -->
+        <div class="eightdiv">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Information</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Item Weight</td>
+                        <td>60kgs</td>
+                    </tr>
+                    <tr>
+                        <td>Item dimentions L×W×H</td>
+                        <td>92×81×104 centimeters</td>
+                    </tr>
+                    <tr>
+                        <td>Included Components</td>
+                        <td>Only Chairs</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- Eight Div End -->
+
+        <!-- Nine Div Start -->
+        <div class="ninediv">
+            <div class="nineupperdiv">
+                <h2>More Products Similar To This:</h2>
+            </div>
+            <div class="ninebottomdiv">
+                <div class="cards">
+                    <img src="swing-chair.png" alt="Swing Chair">
+                    <small>Designer Chair Cushioned</small>
+                    <button>Add To Cart <span class="material-symbols-outlined">
+                        arrow_right_alt
+                        </span></button>
+                </div>
+
+                <div class="cards">
+                    <img src="pinkchair.png" alt="Pink Chair">
+                    <small>Great Sofa to Rest</small>
+                    <button>Add To Cart <span class="material-symbols-outlined">
+                        arrow_right_alt
+                        </span></button>
+                </div>
+
+                <div class="cards">
+                    <img src="sofachair4.png" alt="Sofa Chair 4">
+                    <small>Rustick Chair With Wooden Heals</small>
+                    <button>Add To Cart <span class="material-symbols-outlined">
+                        arrow_right_alt
+                        </span></button>
+                </div>
+
+                <div class="cards">
+                    <img src="pagesofa1.3.png" alt="Swing Chair">
+                    <small>Designer Chair Cushioned</small>
+                    <button>Add To Cart <span class="material-symbols-outlined">
+                        arrow_right_alt
+                        </span></button>
+                </div>
+            </div>
+        </div>
+        <!-- Nine Div End -->
+
+        <!-- Ten Div Start -->
+        <div class="tendiv">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Customers Rating</td>
+                        <th><img src="five-stars.png" alt="Five Star"></th>
+                        <th><img src="five-stars.png" alt="Five Star"></th>
+                        <th><img src="

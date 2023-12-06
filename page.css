@@ -1,0 +1,1520 @@
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+    .navbar{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        width: 100%;
+        height: 50px;
+        margin-bottom: 30px;
+        grid-column: 1/span 2;
+    }
+    .navbarinnerdiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px;
+    }
+    .navbarinnerdiv img{
+        height: 25px;
+        width: 30px;
+    }
+     .navbarinnerdiv strong{
+        font-size: 2rem;
+        color: #000;
+        letter-spacing: 0.1rem;
+    }
+     .navbarinnerdiv input{
+        border: none;
+        width: 450px;
+        padding: 10px 30px;
+        font-size: 0.9rem;
+        color: #000;
+        background-color: #f2bdbd;
+        cursor: pointer;
+        outline: none;
+    }
+    .navbarinnerdiv .material-symbols-outlined{
+        background-color: #f2bdbd;
+        padding: 10px;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+    .navbarinnerbottomdiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .navbarinnerbottomdiv .navbarinnerdiv a{
+        text-decoration: none;
+        padding: 5px 15px;
+        color: #000;
+    }
+    .navbarinnerdiv a:hover{
+        background-color: #f2bdbd;
+        color:#fff;
+    }
+    .onediv{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        margin: 20px 0px;
+        justify-content: space-evenly;
+    }
+    .oneleftdiv{
+        display: grid;
+        grid-template-columns: 1fr 400px;
+        width: 100%;
+    }
+    .oneleftinnerleftdiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .oneleftinnerleftdiv img{
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+        background-color: rgb(228, 199, 228);
+        margin: 10px 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .oneleftinnerleftdiv img:hover{
+        background-color: rgb(36, 36, 233);
+    }
+    .oneleftinnerrightdiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .oneleftinnerrightdiv img{
+        height: 150px;
+        width: 300px;
+    }
+    .seconddiv{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px 0px;
+    }
+    .secondinnertopdiv{
+        display: flex;
+        flex-direction: column;
+        padding : 10px;
+    }
+    .secondinnertopdiv h2{
+        margin: 10px 0px;
+    }
+    .secondinnertopdiv p{
+        line-height: 1.3rem;
+        font-size: 0.9rem;
+    }
+    .secondinnermiddlediv{
+        display: flex;
+        flex-direction: row;
+        padding:0px 10px;
+        cursor: pointer;
+    }
+    .secondinnermiddlediv s{
+        margin-right: 10px;
+        font-weight: bold;
+    }
+    .secondinnermiddlediv span{
+        color: #00f;
+    }
+    .secondinnerbottomdiv{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .secondinnerbottomdiv span{
+        margin: 0px 5px;
+        cursor: pointer;
+    }
+    .color{
+        padding: 0px 10px;
+    }
+    .secondinnerenddiv{
+        display: flex;
+        flex-direction: row;
+        padding: 0px 20px;
+    }
+    .secondinnerenddiv .all{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        border: 2px solid #000;
+        margin: 0px 20px;
+        cursor: pointer;
+        transition: all;
+    }
+    .secondinnerenddiv .all:hover{
+        transform: scale(2);
+    }
+    .secondinnerenddiv .div1{
+        background-color: #f00;
+    }
+    .secondinnerenddiv .div2{
+        background-color: #0f0;
+    }
+    .secondinnerenddiv .div3{
+        background-color: #00f;
+    }
+    .secondinnerenddiv .div4{
+        background-color: rgb(227, 210, 18);
+    }
+    .secondinnerenddiv .div5{
+        background-color: rgb(244, 117, 181);
+    }
+    .secondinnerenddiv .div6{
+        background-color: rgb(255, 119, 0);
+    }
+    .secondinnerenddiv .div7{
+        background-color: rgb(255, 0, 195);
+    }
+    .secondinnerenddiv .div8{
+        background-color: rgb(0, 204, 255);
+    }
+    .secondinnerenddiv .div9{
+        background-color: rgb(0, 255, 213);
+    }
+    .secondinnerenddiv .div10{
+        background-color: rgb(36, 35, 35);
+    }
+    .thirddiv{
+        display: flex;
+        flex-direction: row;
+        margin: 30px 0px;
+        padding: 20px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .thirddiv img{
+        height: 300px;
+        width: 350px;
+    }
+    .fourthdiv{
+        display: grid;
+        width: 100%;
+        padding: 20px 0px;
+        margin: 30px 0px;
+    }
+    .fourthdiv .fourthupperdiv{
+        display: flex;
+        flex-direction: column;
+        line-height: 1.8rem;
+    }
+    .fourthmiddlediv{
+        margin: 20px 0px;
+    }
+    .fourthbottomdiv{
+        display: flex;
+        flex-direction: row;
+        margin: 20px 20px;
+    }
+    .fourthbottomdiv .all{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        border: 2px solid #000;
+        margin: 0px 20px;
+        cursor: pointer;
+        transition: all;
+    }
+    .fourthbottomdiv .all:hover{
+        transform: scale(2);
+    }
+    .fourthbottomdiv .div1{
+        background-color: #f00;
+    }
+    .fourthbottomdiv .div2{
+        background-color: #0f0;
+    }
+    .fourthbottomdiv .div3{
+        background-color: #00f;
+    }
+    .fourthbottomdiv .div4{
+        background-color: rgb(227, 210, 18);
+    }
+    .fourthbottomdiv .div5{
+        background-color: rgb(244, 117, 181);
+    }
+    .fourthbottomdiv .div6{
+        background-color: rgb(255, 119, 0);
+    }
+    .fourthbottomdiv .div7{
+        background-color: rgb(255, 0, 195);
+    }
+    .fourthbottomdiv .div8{
+        background-color: rgb(0, 204, 255);
+    }
+    .fourthbottomdiv .div9{
+        background-color: rgb(0, 255, 213);
+    }
+    .fourthbottomdiv .div10{
+        background-color: rgb(36, 35, 35);
+    }
+    .fifthdiv{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 0px 20px;
+        margin: 20px 0px;
+    }
+.sixdiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 20px;
+    margin: 20px 0px;
+}
+.sixdiv h1{
+    margin: 10px 0px;
+}
+.sixdiv p{
+    margin: 10px 0px;
+    line-height: 1.8rem;
+}
+.sevendiv{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+.sevendiv .sevenupperdiv{
+    padding: 20px;
+    margin: 10px 0px;
+}
+.sevendiv .sevenbottomdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.sevenbottomdiv table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.sevenbottomdiv table tr th,
+.sevenbottomdiv table tr td {
+    border: 1px solid #000;
+    padding: 10px 30px;
+    text-align: center;
+}
+.eightdiv{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 170px;
+}
+.eightdiv table{
+    border-collapse: collapse;
+}
+.eightdiv table tr th,
+.eightdiv table tr td{
+    border: 1px solid #000;
+    padding: 10px 30px;
+    text-align: center;
+}
+.ninediv{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 30px 0px;
+    grid-column: 1/span 2;
+}
+.ninediv .nineupperdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px 20px ;
+}
+.ninediv .ninebottomdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 0px;
+}
+.ninediv .ninebottomdiv .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards img{
+    height: 150px;
+    width: 130px;
+    background-color: #f2bdbd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.cards img:hover{
+    background-color: rgb(56, 56, 241);
+}
+.cards small{
+    font-size: 0.7rem;
+    margin: 10px;
+}
+.cards button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #f2bdbd;
+    padding:5px  10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+}
+.cards button:hover{
+    background-color: rgb(56, 56, 241);
+}
+.cards button .material-symbols-outlined{
+    color: rgb(6, 95, 6);
+    margin-left: 5px;
+}
+.tendiv{
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/span 2;
+    margin: 20px 0px;
+    padding: 20px;
+}
+.tendiv table tr th img{
+    height: 15px;
+    width: 60px;
+}
+.tendiv table{
+    border-collapse: collapse;
+}
+.tendiv table tr th,
+.tendiv table tr td{
+    border: 1px solid #000;
+    padding: 10px 30px;
+    text-align: center;
+}
+.elevendiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    grid-column: 1/span 2;
+    margin: 30px 0px;
+}
+.elevenupperdiv{
+    padding: 30px;
+}
+.elevenupperdiv img{
+    height: 25px;
+    width: 130px;
+    margin: 20px 0px;
+}
+.elevenbottomdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 0px 30px;
+}
+.parentfillcolor{
+    height: 19px;
+    width: 160px;
+    background-color: #f2bdbd;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: none;
+}
+.five{
+    width: 100px;
+    color: #00f;
+    background-color: #00f;
+    border-radius: 20px 0px 0px 20px;
+}
+.four{
+    width: 140px;
+    color: #00f;
+    background-color: #00f;
+    border-radius: 20px 0px 0px 20px;
+}
+.three{
+    width: 70px;
+    color: #00f;
+    background-color: #00f;
+    border-radius: 20px 0px 0px 20px;
+}
+.two{
+    width: 50px;
+    color: #00f;
+    background-color: #00f;
+    border-radius: 20px 0px 0px 20px;
+}
+.one{
+    width: 30px;
+    color: #00f;
+    background-color: #00f;
+    border-radius: 20px 0px 0px 20px;
+}
+.twelvediv{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1/span 2;
+    text-align: center;
+    background-color: #f2bdbd;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0px;
+    
+}
+
+
+
+
+
+/* Media Queries Start From 0--321 */
+@media only screen and (max-width:320px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    body {
+        overflow-x: hidden;
+      }
+    /* Navbar Start */
+    .navbar{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 95%;
+        margin: 0 auto;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .navbarinnerdiv{
+        padding: 10px 0px;
+    }
+    .navbarinnerdiv img{
+        height: 20px;
+        width: 25px;
+    }
+    .navbarinnerdiv strong{
+        font-size: 0.9rem;
+        color: #000;
+        letter-spacing: 0.1rem;
+        margin-left: 5px;
+    }
+    .navbarinnerdiv input{
+        width: 200px;
+        padding: 5px 30px;
+        font-size: 0.7rem;
+    }
+    .navbarinnerdiv .material-symbols-outlined{
+        padding: 6px;
+        font-size: 0.7rem;
+    }
+    .navbarinnerbottomdiv{
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbarinnerdiv a{
+        font-size: 0.7rem;
+        padding: 3px 10px;        
+    }
+    /* Navbar End */
+
+    /* One Div Start */
+    .onediv{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column: 1/span 2;
+        width: 95%;
+    }
+    .oneleftdiv{
+        display: grid;
+        grid-template-columns: auto 1fr;
+    }
+    .oneleftinnerleftdiv img{
+        padding: 10px;
+    }
+    .oneleftinnerrightdiv img{
+        height: 100px;
+        width: 150px;
+    }
+    /* One Div End */
+
+    /* Second Div Start */
+    .seconddiv{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px 0px;
+        grid-column: 1/span 2;
+        width: 95%;
+    }
+    .secondinnertopdiv h2{
+        font-size: 0.9rem;
+        width: 90%;
+    }
+    .secondinnertopdiv p{
+        line-height: 1.4rem;
+        font-size: 0.7rem;
+        width: 90%;
+    }
+    .secondinnermiddlediv{
+        display: flex;
+        flex-direction: row;
+        padding:0px 10px;
+        font-size: 0.7rem;
+        margin: 10px 0px;
+    }
+    .secondinnermiddlediv s{
+        margin-right: 10px;
+    }
+    .secondinnerbottomdiv{
+        margin: 10px 0px;
+    }
+    .secondinnerbottomdiv span,img{
+        margin: 0px 3px;
+        font-size: 0.7rem;
+    }
+    .secondinnerbottomdiv img{
+        height: 15px;
+        width: 15px;
+    }
+    .color{
+        padding: 0px 10px;
+        font-size: 1.1rem;
+    }
+    .secondinnerenddiv{
+        margin: 10px 0px;
+    }
+    .secondinnerenddiv .all{
+        height: 15px;
+        width: 15px;
+        margin: 0px 5px;
+    }
+/* Second Div End */
+
+/* Third Div Start */
+    .thirddiv{
+        padding: 20px 10px;
+        grid-column: 1/span 2;
+        width: 95%;
+        margin:  0 auto;
+    }
+    .thirddiv img{
+        height: 180px;
+        width: 220px;
+    }
+    .fourthdiv{
+        display: grid;
+        grid-column: 1/span 2;
+        width: 95%;
+        padding: 20px 10px;
+    }
+    .fourthdiv .fourthupperdiv{
+        line-height: 1.9rem;
+        font-size: 0.8rem;
+    }
+    .fourthmiddlediv{
+        margin: 10px 0px;
+    }
+    .fourthmiddlediv h1{
+        font-size: 1.2rem;
+    }
+    .fourthbottomdiv{
+        display: flex;
+        flex-direction: row;
+        padding: 0px 0px;
+    }
+    .fourthbottomdiv .all{
+        height: 15px;
+        width: 15px;
+        margin: 0px 5px;
+    }
+/* Fourth Div End */
+
+/* Fifth Div Start */
+    .fifthdiv{
+        width: 95%;
+        margin: 10px 0px;
+        grid-column: 1/span 2;
+    }
+    .fifthdiv img{
+        height: 160px;
+        width: 220px;
+    }
+/* Fifth Div End */
+
+/* Sixth Div Start */
+.sixdiv{
+    width: 95%;
+    padding: 20px;
+    margin: 10px 0px;
+    grid-column: 1/span 2;
+}
+.sixdiv h1{
+    font-size: 1.2rem;
+}
+.sixdiv p{
+    font-size: 0.8rem;
+}
+/* Six Div End */
+
+/* Seven Div Start */
+.sevendiv{
+    width: 95%;
+    margin: 0 auto;
+    grid-column: 1/span 2;
+}
+.sevendiv .sevenupperdiv{
+    padding: 15px;
+    margin: 10px 0px;
+}
+.sevendiv .sevenupperdiv h1{
+    font-size: 1.2rem;
+}
+.sevenbottomdiv table {
+    width: 90%;
+}
+
+.sevenbottomdiv table tr th,
+.sevenbottomdiv table tr td {
+    padding: 10px 10px;
+    font-size: 0.8rem;
+}
+/* Seven Div End */
+
+/* Eight Div Start */
+.eightdiv{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 20px;
+    grid-column: 1/span 2;
+}
+.eightdiv table tr th,
+.eightdiv table tr td{
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+/* Eight Div End */
+
+/* Nine Div Start */
+.ninediv{
+    width: 95%;
+    margin: 20px 0px;
+}
+.ninediv .nineupperdiv h2{
+    font-size: 1.1rem;
+}
+.ninediv .ninebottomdiv{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+.ninediv .ninebottomdiv .cards{
+    margin: 10px 0px;
+}
+.cards img{
+    height: 200px;
+    width: 150px;
+    margin: 10px 0px;
+}
+.cards small{
+    font-size: 0.8rem;
+    margin: 5px 0px;
+}
+.cards button{
+    padding:7px  10px;
+    margin: 5px 0px;
+}
+/* Nine Div End */
+
+/* Ten Div Start */
+.tendiv{
+    padding: 10px;
+    width: 95%;
+}
+.tendiv table{
+    width: 90%;
+}
+.tendiv table tr th img{
+    height: 12px;
+    width: 50px;
+}
+.tendiv table tr th,
+.tendiv table tr td{
+    border: 1px solid #000;
+    padding: 10px 3px;
+    text-align: center;
+    font-size: 0.5rem;
+}
+/* Ten Div End */
+
+/* Eleven Div Start */
+.elevendiv{
+    width: 95%;
+    margin: 15px 0px;
+}
+.elevenupperdiv{
+    padding: 10px;
+}
+.elevendiv .elevenupperdiv h2{
+    font-size: 1rem;
+}
+.elevendiv .elevenupperdiv h4{
+    font-size: 0.8rem;
+}
+.elevenupperdiv img{
+    height: 15px;
+    width: 80px;
+    margin: 10px 0px;
+}
+.elevenbottomdiv{
+    padding: 0px 10px;
+}
+
+.twelvediv{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px 0px;
+}
+.twelvediv h2{
+    font-size: 0.8rem;
+}
+ 
+}
+
+
+
+/* Media Queries Start From 320--425 */
+@media only screen and (min-width:321px) and (max-width:425px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    body {
+        overflow-x: hidden;
+      }
+    /* Navbar Start */
+    .navbar{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 95%;
+        margin: 0 auto;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .navbarinnerdiv{
+        padding: 10px 0px;
+    }
+    .navbarinnerdiv img{
+        height: 20px;
+        width: 25px;
+    }
+    .navbarinnerdiv strong{
+        font-size: 0.9rem;
+        color: #000;
+        letter-spacing: 0.1rem;
+        margin-left: 5px;
+    }
+    .navbarinnerdiv input{
+        width: 200px;
+        padding: 5px 30px;
+        font-size: 0.7rem;
+    }
+    .navbarinnerdiv .material-symbols-outlined{
+        padding: 6px;
+        font-size: 0.7rem;
+    }
+    .navbarinnerbottomdiv{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbarinnerdiv a{
+        font-size: 0.7rem;
+        padding: 3px 10px;        
+    }
+    /* Navbar End */
+
+    /* One Div Start */
+    .onediv{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column: 1/span 2;
+        width: 95%;
+    }
+    .oneleftdiv{
+        display: grid;
+        grid-template-columns: auto 1fr;
+    }
+    .oneleftinnerleftdiv img{
+        padding: 10px;
+    }
+    .oneleftinnerrightdiv img{
+        height: 100px;
+        width: 175px;
+    }
+    /* One Div End */
+
+    /* Second Div Start */
+    .seconddiv{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px 0px;
+        grid-column: 1/span 2;
+        width: 95%;
+    }
+    .secondinnertopdiv h2{
+        font-size: 0.9rem;
+    }
+    .secondinnertopdiv p{
+        line-height: 1.4rem;
+        font-size: 0.7rem;
+    }
+    .secondinnermiddlediv{
+        display: flex;
+        flex-direction: row;
+        padding:0px 10px;
+        font-size: 0.7rem;
+        margin: 10px 0px;
+    }
+    .secondinnermiddlediv s{
+        margin-right: 10px;
+    }
+    .secondinnerbottomdiv{
+        margin: 10px 0px;
+    }
+    .secondinnerbottomdiv span,img{
+        margin: 0px 3px;
+        font-size: 0.7rem;
+    }
+    .secondinnerbottomdiv img{
+        height: 15px;
+        width: 15px;
+    }
+    .color{
+        padding: 0px 10px;
+        font-size: 1.1rem;
+    }
+    .secondinnerenddiv{
+        margin: 10px 0px;
+    }
+    .secondinnerenddiv .all{
+        height: 15px;
+        width: 15px;
+        margin: 0px 8px;
+    }
+/* Second Div End */
+
+/* Third Div Start */
+    .thirddiv{
+        padding: 20px 10px;
+        grid-column: 1/span 2;
+        width: 95%;
+        margin:  0 auto;
+    }
+    .thirddiv img{
+        height: 180px;
+        width: 220px;
+    }
+    .fourthdiv{
+        display: grid;
+        grid-column: 1/span 2;
+        width: 95%;
+        padding: 20px 10px;
+    }
+    .fourthdiv .fourthupperdiv{
+        line-height: 1.9rem;
+        font-size: 0.8rem;
+    }
+    .fourthmiddlediv{
+        margin: 10px 0px;
+    }
+    .fourthmiddlediv h1{
+        font-size: 1.2rem;
+    }
+    .fourthbottomdiv{
+        display: flex;
+        flex-direction: row;
+        padding: 0px 0px;
+    }
+    .fourthbottomdiv .all{
+        height: 15px;
+        width: 15px;
+        margin: 0px 8px;
+    }
+/* Fourth Div End */
+
+/* Fifth Div Start */
+    .fifthdiv{
+        width: 95%;
+        margin: 10px 0px;
+        grid-column: 1/span 2;
+    }
+    .fifthdiv img{
+        height: 160px;
+        width: 220px;
+    }
+/* Fifth Div End */
+
+/* Sixth Div Start */
+.sixdiv{
+    width: 95%;
+    padding: 20px;
+    margin: 10px 0px;
+    grid-column: 1/span 2;
+}
+.sixdiv h1{
+    font-size: 1.2rem;
+}
+.sixdiv p{
+    font-size: 0.8rem;
+}
+/* Six Div End */
+
+/* Seven Div Start */
+.sevendiv{
+    width: 95%;
+    margin: 0 auto;
+    grid-column: 1/span 2;
+}
+.sevendiv .sevenupperdiv{
+    padding: 15px;
+    margin: 10px 0px;
+}
+.sevendiv .sevenupperdiv h1{
+    font-size: 1.2rem;
+}
+.sevenbottomdiv table {
+    width: 90%;
+}
+
+.sevenbottomdiv table tr th,
+.sevenbottomdiv table tr td {
+    padding: 10px 10px;
+    font-size: 0.8rem;
+}
+/* Seven Div End */
+
+/* Eight Div Start */
+.eightdiv{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 20px;
+    grid-column: 1/span 2;
+}
+.eightdiv table tr th,
+.eightdiv table tr td{
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+/* Eight Div End */
+
+/* Nine Div Start */
+.ninediv{
+    width: 95%;
+    margin: 20px 0px;
+}
+.ninediv .nineupperdiv h2{
+    font-size: 1.1rem;
+}
+.ninediv .ninebottomdiv{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+.ninediv .ninebottomdiv .cards{
+    margin: 10px 0px;
+}
+.cards img{
+    height: 200px;
+    width: 150px;
+    margin: 10px 0px;
+}
+.cards small{
+    font-size: 0.8rem;
+    margin: 5px 0px;
+}
+.cards button{
+    padding:7px  10px;
+    margin: 5px 0px;
+}
+/* Nine Div End */
+
+/* Ten Div Start */
+.tendiv{
+    padding: 10px;
+    width: 95%;
+}
+.tendiv table tr th img{
+    height: 12px;
+    width: 50px;
+}
+.tendiv table tr th,
+.tendiv table tr td{
+    border: 1px solid #000;
+    padding: 10px 4px;
+    text-align: center;
+    font-size: 0.6rem;
+}
+/* Ten Div End */
+
+/* Eleven Div Start */
+.elevendiv{
+    width: 95%;
+    margin: 15px 0px;
+}
+.elevenupperdiv{
+    padding: 10px;
+}
+.elevendiv .elevenupperdiv h2{
+    font-size: 1rem;
+}
+.elevendiv .elevenupperdiv h4{
+    font-size: 0.8rem;
+}
+.elevenupperdiv img{
+    height: 15px;
+    width: 80px;
+    margin: 10px 0px;
+}
+.elevenbottomdiv{
+    padding: 0px 10px;
+}
+
+.twelvediv{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px 0px;
+}
+.twelvediv h2{
+    font-size: 0.8rem;
+}
+ 
+}
+
+
+
+/* Media Queries Start From 426--768 */
+@media only screen and (min-width:426px) and (max-width:768px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    body {
+        overflow-x: hidden;
+      }
+    /* Navbar Start */
+    .navbar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .navbarinnerdiv{
+        padding: 10px 0px;
+    }
+    .navbarinnerdiv img{
+        height: 20px;
+        width: 25px;
+    }
+    .navbarinnerdiv strong{
+        font-size: 1rem;
+        color: #000;
+        letter-spacing: 0.1rem;
+        margin-left: 5px;
+    }
+    .navbarinnerdiv input{
+        width: 190px;
+        padding: 5px 30px;
+        font-size: 0.7rem;
+    }
+    .navbarinnerdiv .material-symbols-outlined{
+        padding: 6px;
+        font-size: 0.7rem;
+    }
+    .navbarinnerbottomdiv{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbarinnerdiv a{
+        font-size: 0.7rem;
+        padding: 3px 10px;        
+    }
+    /* Navbar End */
+
+    /* One Div Start */
+    .onediv{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column: 1/span 2;
+        width: 95%;
+    }
+    .oneleftdiv{
+        display: grid;
+        grid-template-columns: auto 1fr;
+    }
+    .oneleftinnerleftdiv img{
+        padding: 10px;
+    }
+    .oneleftinnerrightdiv img{
+        height: 200px;
+        width: 350px;
+    }
+    /* One Div End */
+
+    /* Second Div Start */
+    .seconddiv{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px 0px;
+        grid-column: 1/span 2;
+        width: 95%;
+    }
+    .secondinnertopdiv h2{
+        font-size: 1rem;
+    }
+    .secondinnertopdiv p{
+        line-height: 1.4rem;
+        font-size: 0.8rem;
+    }
+    .secondinnermiddlediv{
+        display: flex;
+        flex-direction: row;
+        padding:0px 10px;
+        font-size: 0.8rem;
+        margin: 10px 0px;
+    }
+    .secondinnermiddlediv s{
+        margin-right: 10px;
+    }
+    .secondinnerbottomdiv{
+        margin: 10px 0px;
+    }
+    .secondinnerbottomdiv span,img{
+        margin: 0px 3px;
+        font-size: 0.9rem;
+    }
+    .secondinnerbottomdiv img{
+        height: 18px;
+        width: 18px;
+    }
+    .color{
+        padding: 0px 10px;
+        font-size: 1.3rem;
+    }
+    .secondinnerenddiv{
+        margin: 10px 0px;
+    }
+    .secondinnerenddiv .all{
+        height: 18px;
+        width: 18px;
+        margin: 0px 15px;
+    }
+/* Second Div End */
+
+/* Third Div Start */
+    .thirddiv{
+        padding: 20px 10px;
+        grid-column: 1/span 2;
+        width: 95%;
+        margin:  0 auto;
+    }
+    .thirddiv img{
+        height: 180px;
+        width: 220px;
+    }
+    .fourthdiv{
+        display: grid;
+        grid-column: 1/span 2;
+        width: 95%;
+        padding: 20px 10px;
+    }
+    .fourthdiv .fourthupperdiv{
+        line-height: 1.9rem;
+        font-size: 0.9rem;
+    }
+    .fourthmiddlediv{
+        margin: 10px 0px;
+    }
+    .fourthmiddlediv h1{
+        font-size: 1.2rem;
+    }
+    .fourthbottomdiv{
+        display: flex;
+        flex-direction: row;
+        padding: 0px 0px;
+    }
+    .fourthbottomdiv .all{
+        height: 18px;
+        width: 18px;
+        margin: 0px 15px;
+    }
+/* Fourth Div End */
+
+/* Fifth Div Start */
+    .fifthdiv{
+        width: 95%;
+        margin: 10px 0px;
+        grid-column: 1/span 2;
+    }
+    .fifthdiv img{
+        margin: 0 auto;
+        height: 200px;
+        width: 350px;
+    }
+/* Fifth Div End */
+
+/* Sixth Div Start */
+.sixdiv{
+    width: 95%;
+    padding: 20px;
+    margin: 10px 0px;
+    grid-column: 1/span 2;
+}
+.sixdiv h1{
+    font-size: 1.2rem;
+}
+.sixdiv p{
+    font-size: 0.8rem;
+}
+/* Six Div End */
+
+/* Seven Div Start */
+.sevendiv{
+    width: 95%;
+    margin: 0 auto;
+    grid-column: 1/span 2;
+}
+.sevendiv .sevenupperdiv{
+    padding: 15px;
+    margin: 10px 0px;
+}
+.sevendiv .sevenupperdiv h1{
+    font-size: 1.2rem;
+}
+.sevenbottomdiv table {
+    width: 95%;
+}
+
+.sevenbottomdiv table tr th,
+.sevenbottomdiv table tr td {
+    padding: 10px 10px;
+    font-size: 0.8rem;
+}
+/* Seven Div End */
+
+/* Eight Div Start */
+.eightdiv{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 20px;
+    grid-column: 1/span 2;
+}
+.eightdiv table tr th,
+.eightdiv table tr td{
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+/* Eight Div End */
+
+/* Nine Div Start */
+.ninediv{
+    width: 95%;
+    margin: 20px 0px;
+}
+.ninediv .nineupperdiv h2{
+    font-size: 1.1rem;
+}
+.ninediv .ninebottomdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* flex-direction: row; */
+    margin: 20px 0px;
+}
+.ninediv .ninebottomdiv .cards{
+    margin: 10px 0px;
+}
+.cards img{
+    height: 200px;
+    width: 150px;
+    margin: 10px 0px;
+}
+.cards small{
+    font-size: 0.8rem;
+    margin: 5px 0px;
+}
+.cards button{
+    padding:7px  10px;
+    margin: 5px 0px;
+}
+/* Nine Div End */
+
+/* Ten Div Start */
+.tendiv{
+    padding: 10px;
+    width: 95%;
+}
+.tendiv table tr th img{
+    height: 12px;
+    width: 50px;
+}
+.tendiv table tr th,
+.tendiv table tr td{
+    border: 1px solid #000;
+    padding: 10px 4px;
+    text-align: center;
+    font-size: 0.7rem;
+}
+/* Ten Div End */
+
+/* Eleven Div Start */
+.elevendiv{
+    width: 95%;
+    margin: 15px 0px;
+}
+.elevenupperdiv{
+    padding: 10px;
+}
+.elevendiv .elevenupperdiv h2{
+    font-size: 1rem;
+}
+.elevendiv .elevenupperdiv h4{
+    font-size: 0.8rem;
+}
+.elevenupperdiv img{
+    height: 15px;
+    width: 80px;
+    margin: 10px 0px;
+}
+.elevenbottomdiv{
+    padding: 0px 10px;
+}
+
+.twelvediv{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px 0px;
+}
+.twelvediv h2{
+    font-size: 0.9rem;
+}
+ 
+}
+
+/* * Media Queries Start From 769px--1024px * */
+@media only screen and (min-width:769px)and (max-width:1024px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    body {
+        overflow-x: hidden;
+      }
+    /* Navbar Start */
+    .navbar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .navbarinnerdiv{
+        padding: 10px 0px;
+    }
+    .navbarinnerdiv img{
+        height: 20px;
+        width: 25px;
+    }
+    .navbarinnerdiv strong{
+        font-size: 1rem;
+        color: #000;
+        letter-spacing: 0.1rem;
+        margin-left: 5px;
+    }
+    .navbarinnerdiv input{
+        width: 190px;
+        padding: 5px 30px;
+        font-size: 0.7rem;
+    }
+    .navbarinnerdiv .material-symbols-outlined{
+        padding: 6px;
+        font-size: 0.7rem;
+    }
+    .navbarinnerbottomdiv{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbarinnerdiv a{
+        font-size: 0.7rem;
+        padding: 3px 10px;        
+    }
+    /* Navbar End */
+}
